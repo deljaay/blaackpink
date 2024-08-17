@@ -1,0 +1,246 @@
+body {
+    font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000000; 
+    color: #ffffff; 
+    line-height: 1.6;
+    margin: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 85px;
+    padding: 20px;
+    margin: 30px 0;
+    background-color: #1e1e1e;
+}
+
+header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    position: relative;
+    left: 10px;
+}
+
+h3 {
+    color: #FF1493;
+    font-size: 1.3rem !important;
+}
+
+#Barra {
+    background-color: #333333; 
+    color: #FFC0CB;
+    padding: 10px; 
+    text-align: center; 
+    position: relative;
+    top: 0;
+    margin: 30px 0;
+    z-index: 1000;
+}
+
+#Barra nav {
+    display: inline-block; 
+}
+
+#Barra nav h3 {
+    display: inline;
+    margin: 0 15px;
+}
+
+#Barra nav a {
+    color: #FF1493;
+    text-decoration: none;
+}
+
+#Barra nav a:hover {
+    color: #FFC0CB;
+}
+
+.Temas {
+    background-color: #1e1e1e;
+    color: #ffffff; 
+    width: 250px;
+    padding: 15px; 
+    border-radius: 5px; 
+    margin: 30px 0; 
+    box-sizing: border-box;
+}
+
+.Temas h3 {
+    color: #FF1493; 
+    text-align: left; 
+    margin-bottom: 15px; 
+}
+
+.Temas ul, .Temas li {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.Temas li {
+    background-color: #333333; 
+    border: 1px solid #ffffff; 
+    padding: 10px 15px; 
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+}
+
+.Temas li a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.Temas li a:hover {
+    color: #FFC0CB; 
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start; /* Cambiado para alinear los elementos a la izquierda */
+    margin-bottom: 30px;
+}
+
+.blackpink {
+    background-color: #333333;
+    color: white;
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    /* Removed justify-content: left !important; */
+}
+
+.additional-info {
+    color: #000000;
+    flex: 0.3;
+    background-color: #ffffff; 
+    padding: 10px;
+    border-radius: 8px;
+    /* Removed justify-content: left !important; */
+}
+
+.additional-info h3 {
+    color: #e4002b; 
+}
+
+.additional-info p {
+    color: #333333;
+}
+
+.social {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+    padding: 15px; 
+    border-radius: 5px; 
+    width: 550px;
+    margin: 30px 0; 
+}
+
+.social h3 {
+    color: #FF1493; 
+    margin-bottom: 15px; 
+}
+
+.social ul, .social li {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.social li {
+    background-color: #333333; 
+    border: 1px solid #ffffff; 
+    padding: 10px 15px; 
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+}
+
+.social li a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.social li a:hover {
+    color: #FFC0CB; 
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.discografia {
+    background-color: #333333; 
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px 0; 
+}
+
+.discografia table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.discografia th, .discografia td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ffffff;
+}
+
+.discografia th {
+    background-color: #FF1493; 
+    color: #ffffff;
+}
+
+.discografia tr:hover {
+    background-color: #444444;
+}
+
+.discografia td {
+    background-color: #1e1e1e; 
+}
+
+.Premios {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+    padding: 15px; 
+    border-radius: 5px; 
+    width: 550px;
+    margin: 30px 0; 
+}
+
+.Premios h3 {
+    color: #FF1493; 
+    margin-bottom: 15px; 
+}
+
+.Premios ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    margin: 0;
+}
+
+.Premios li {
+    margin-bottom: 5px; 
+}
+
+.custom-carousel {
+    width: 80%; /* Ajusta el ancho del carrusel */
+    max-width: 450px; /* Ajusta el ancho máximo del carrusel */
+    margin: auto; /* Centra el carrusel horizontalmente */
+  }
+  
+  .custom-carousel .carousel-item img {
+    width: 100%; /* Asegura que la imagen ocupe el 100% del ancho del carrusel */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 200px; /* Ajusta la altura máxima de la imagen */
+    object-fit: cover; /* Ajusta cómo se ajusta la imagen al contenedor */
+  }
